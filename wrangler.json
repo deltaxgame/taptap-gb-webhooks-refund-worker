@@ -1,0 +1,16 @@
+{
+	"compatibility_date": "2025-10-08",
+	"main": "src/index.ts",
+	"name": "taptap-gb-webhooks-refund-worker",
+	"upload_source_maps": true,
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_id": "acd611ac-510d-4dd4-8a4e-de63dbf69e63",
+			"database_name": "taptap_gb_webhook_lost_order"
+		}
+	],
+	"observability": {
+		"enabled": true
+	}
+}
